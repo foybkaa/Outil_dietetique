@@ -1,0 +1,142 @@
+body{
+    margin: -15px;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    overflow:hidden;
+}
+.left {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 100%;
+    height: 50%;
+    background-image: url(../image/food.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  .left_title {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    max-width: 100px;
+    line-height: 0.9;
+    padding-left: 40px;
+    background-image: url(../image/onews.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+   
+  }
+  
+  .center_paragraph {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .center_paragraph p{
+    padding-left: 25%;
+      width: 50%;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .subtitle-strong {
+    font-style: normal;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+
+  .bottom_title {
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.856);
+    background-color: #45a81779;
+  }
+  
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .post {
+    width: 30%;
+    padding: 1.5em;
+    border-top: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    font-size: 0.9em;
+  }
+  
+  .post_meta {
+    font-size: 0.9em;
+    color: grey;
+    margin: 0.625em 0;
+  }
+
+  .post_link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .imc{
+    background-image: url(../image/balance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+
+  input[type=number] {
+    border: 2px solid #999;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  button[type="submit"]{
+    border: 2px solid #999;
+    border-radius: 5px 5px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+
+  }
+  button[type="submit"]:hover{
+    background-color: rgba(73, 73, 73, 0.692);
+    color: white;
+
+  }
+  .resultimc p{
+    padding: 0 350px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .good{
+  color: green;
+  }
+  .bad{
+  color: red;
+  }
+  .medium{
+  color: orange;
+  }
+
+  .mb{
+    background-image: url(../image/mb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .bilan{
+
+      background-image: url(../image/bilan.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding-top: 150px;
+   }
